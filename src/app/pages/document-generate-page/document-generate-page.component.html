@@ -1,0 +1,9 @@
+<app-nav></app-nav>
+<div style="margin-top: 40px">
+      <div>
+        <label >:</label>
+      </div>
+      <h4>Final generated document/s:</h4>
+      
+      <ckeditor class="editor" [(ngModel)]="finalHtml" [editor]="Editor"  (ready)="onReady($event)" ></ckeditor>
+</div>      

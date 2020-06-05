@@ -1,0 +1,28 @@
+.container-fluid{
+    background-image: url("../../../assets/bg.svg");
+    height: 10vh; 
+    width: 10ovw;
+    background-color: #6c757d;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* p{
+    color:lightgray;
+    margin:25px 0 0 0;
+} */
+/* .title{
+    background-image: url("../../../assets/bg.svg");
+    width: 100vw;
+    background-color: #3B7DBC;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0.5em 0.5em;
+    
+} */
+h2{
+    margin:40px 0 0 0;
+}

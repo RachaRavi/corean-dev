@@ -1,0 +1,18 @@
+<app-nav></app-nav>
+
+<div style="margin-top: 40px">
+      <div>
+        <label >Create template placeholders:</label>
+      </div>
+
+      <div>
+        <h5 >Create template by using placeholders:</h5>
+      </div>
+
+      <ckeditor class="editor" [(ngModel)]="model.description" [editor]="Editor" data="Hello, world!!!" (ready)="onReady($event)" ></ckeditor>
+      <p>
+      <button (click)="prev()"> <Back </button> &nbsp;&nbsp;  <button type="submit" (click)="submit()">Submit</button> &nbsp;&nbsp; <button (click)="next()">Next></button> 
+      </p>
+
+
+</div>

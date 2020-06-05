@@ -1,0 +1,53 @@
+<app-nav></app-nav>
+<div style="margin-top: 40px">
+      <div>
+        <label >Create template placeholders:</label>
+      </div>
+
+      <div>
+        <h5 >Create template placeholders:</h5>
+      </div>
+
+      <div class="todos">
+        <div>
+          <form (submit)="addTodo($event)">
+          <input [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="textfield" name="newTodo"/>
+            <button  type="submit" [disabled]="newTodo===''"> Add </button>
+          </form>
+          </div>
+       
+          <br/>
+          <div [hidden]="!newTodo">
+            <!-- Another two-way binding example -->
+            Typing: {{ newTodo }}
+          </div>
+
+          <ul>
+            <li *ngFor="let todo of todos; let i=index">
+              <input type="checkbox" class="checkbox" [(ngModel)]="todo.completed" />
+            <span [ngClass]="{'checked': todo.completed}">  {{ todo }}  </span>
+            <span (click)="deleteTodo(i)" class="delete-icon"> [X]</span>
+            </li>
+          </ul>
+
+          <!-- 
+          <div class="mtop20">
+            <button (click)="deleteSelectedTodos()">Delete Selected</button>
+          </div>
+          -->
+
+          <div class="mtop20">
+            <button (click)="next()">Next</button>
+          </div>
+  
+      </div>
+
+
+
+
+
+
+
+
+
+</div>

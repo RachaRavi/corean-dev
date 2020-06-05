@@ -1,0 +1,8 @@
+<app-nav></app-nav>
+<div style="margin-top: 40px">
+      <div>
+        <label >Template</label>
+      </div>
+     <ckeditor class="editor" [(ngModel)]="model.description" [editor]="Editor" data="Hello, world!!!" (ready)="onReady($event)" ></ckeditor>
+    <p><button type="submit" (click)="submit()">Submit</button> </p>
+</div>

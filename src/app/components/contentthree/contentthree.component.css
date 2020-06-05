@@ -1,0 +1,32 @@
+.container-fluid{
+    background-image: url("../../../assets/abstract-asymmetry-bright-2284335.jpg");
+    height: 100vh; 
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color:#5d5d5d;
+    font-size: 18px;
+    text-align: start;
+  max-width: 300px;
+    font-family: cursive;
+}
+.mast h1{
+    color: chocolate;
+    font-size: 26px;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px){
+   h1{
+        font-size: 2rem !important;
+    }
+    .mast h1{
+        font-size: 23px !important;
+    }
+    .container-fluid{
+        height: 120vh;
+    }
+}
