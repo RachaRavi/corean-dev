@@ -21,7 +21,7 @@
     "@angular/router": "~7.2.0",
     "@ckeditor/ckeditor5-angular": "^1.1.0",
     "@ckeditor/ckeditor5-core": "^12.2.1",
-    "@ckeditor/ckeditor5-image": "^13.1.2",
+    "@ckeditor/ckeditor5-image": "^27.0.0",
     "@ckeditor/ckeditor5-ui": "^13.0.2",
     "@swimlane/ngx-datatable": "^16.0.3",
     "core-js": "^2.5.4",
